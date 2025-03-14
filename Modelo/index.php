@@ -10,7 +10,7 @@
 
     <?php 
     
-        $numero = $_GET['num']
+        $numero = $_GET['num'] ?? 1;
 
     ?>
 
@@ -18,7 +18,8 @@
         <h1>Informe um número</h1>
         <form action="" method="get">
             <label for="num">Número</label>
-            <input type="number" name="num" id="num">
+            <input type="number" name="num" id="num" value="<?=$numero?>">
+            <input type="submit" value="">
         </form>
     </main>
 
