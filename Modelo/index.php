@@ -9,16 +9,16 @@
 <body>
 
     <?php 
-    
-        $numero = $_GET['num'] ?? 1;
+
+
 
     ?>
 
     <main>
-        <h1>Informe um número</h1>
+        <h1></h1>
         <form action="" method="get">
-            <label for="num">Número</label>
-            <input type="number" name="num" id="num" value="<?=$numero?>">
+            <label for=""></label>
+            <input type="number" name="" id="" value="">
             <input type="submit" value="">
         </form>
     </main>
