@@ -24,7 +24,7 @@
     </main>
 
     <section>
-        <h2>Resultado final</h2>
+        <h2></h2>
 
         <?php 
         
