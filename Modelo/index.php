@@ -16,7 +16,7 @@
 
     <main>
         <h1></h1>
-        <form action="" method="get">
+        <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
             <label for=""></label>
             <input type="number" name="" id="" value="">
             <input type="submit" value="">
