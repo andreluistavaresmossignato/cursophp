@@ -15,7 +15,7 @@
     ?>
 
     <main>
-        <h1>Calculadora do Tempo</h1>
+        <h1>Calculadora de Tempo</h1>
         <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
             <label for="seg">Qual é o total de segundos?</label>
             <input type="number" name="seg" id="seg" min="0" step="1" required value="<?=$total?>">
